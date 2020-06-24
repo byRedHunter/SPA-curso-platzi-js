@@ -33,12 +33,10 @@ module.exports = {
 
 	// plugins que se va a utilizar
 	plugins: [
-		new HtmlWebpackPlugin([
-			{
-				inject: true,
-				template: './public/index.html',
-				filename: './index.html',
-			},
-		]),
+		new HtmlWebpackPlugin({
+			inject: true,
+			template: './public/index.html',
+			filename: './index.html',
+		}),
 	],
 }

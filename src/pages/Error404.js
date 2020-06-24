@@ -3,7 +3,7 @@ const Error404 = () => {
     <div class=Error404">
       <h2>Error 404</h2>
 
-      <img src="./images/page_not_found.svg" />
+      <img src="../src/images/page_not_found.svg" />
     </div>
   `
 
