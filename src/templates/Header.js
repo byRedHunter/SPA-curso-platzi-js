@@ -10,6 +10,10 @@ const Header = () => {
       <div class="Header-nav">
         <a href="#/about">About</a>
       </div>
+
+      <div class="type">
+        <div class="option" id="modePage" onclick="changeMode()"></div>
+      </div>
     </div>
   `
 
